@@ -6,4 +6,4 @@ else
 obj-y   +=  gyroscope.o gyro_factory.o
 endif
 
-obj-$(CONFIG_MTK_LSM6DS0G)   +=  lsm6ds0gy/
+obj-$(CONFIG_MTK_LSM6DS3G)   +=  lsm6ds3gy/

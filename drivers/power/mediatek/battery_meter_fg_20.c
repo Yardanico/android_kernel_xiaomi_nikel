@@ -3841,11 +3841,14 @@ static int battery_meter_dts_probe(struct platform_device *dev)
 	bm_err("******** battery_meter_dts_probe!! ********\n");
 
 	battery_meter_device.dev.of_node = dev->dev.of_node;
+	printk("After of_node assign in batmeter");
 	ret = platform_device_register(&battery_meter_device);
+	printk("After ret in batmeter");
 	if (ret) {
 		bm_err("****[battery_meter_dts_probe] Unable to register device (%d)\n", ret);
 		return ret;
 	}
+	printk("After if in batmeter");
 	return 0;
 
 }

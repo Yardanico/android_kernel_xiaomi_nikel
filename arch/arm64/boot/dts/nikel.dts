@@ -354,7 +354,7 @@
 
 		ram_console-reserved-memory@44400000 {
 			compatible = "ram_console-reserve-memory";
-			reg = <0x00 0x44400000 0x00 0x10000>;
+			reg = <0x00 0x44400000 0x00 0xe0000>;
 		};
 
 		pstore-reserved-memory@44410000 {

@@ -304,6 +304,7 @@ void _i2c_dump_info(struct mt_i2c_t *i2c)
 {
 	/* I2CFUC(); */
 	/* int val=0; */
+	/*
 	I2CLOG("I2C(%d) dump info++++++++++++++++++++++\n", i2c->id);
 	I2CLOG("I2C structure:\n"
 	       I2CTAG "Clk=%d,Id=%d,Speed mode=%x,St_rs=%x,Dma_en=%x,Op=%x,Poll_en=%x,Irq_stat=%x\n"
@@ -372,7 +373,7 @@ void _i2c_dump_info(struct mt_i2c_t *i2c)
 	       (__raw_readl((void *)i2c->pdmabase + OFFSET_RX_LEN)),
 	       (__raw_readl((void *)i2c->pdmabase + OFFSET_INT_BUF_SIZE)),
 	       (__raw_readl((void *)i2c->pdmabase + OFFSET_DEBUG_STA)));
-
+*/
 #if 0				/* /TODO: */
 /* #if defined(GPIO_I2C0_SDA_PIN) && defined(GPIO_I2C1_SDA_PIN) */
 	I2CLOG("mt_get_gpio_in I2C0_SDA=%d,I2C0_SCL=%d,I2C1_SDA=%d,I2C1_SCL=%d\n",
@@ -386,6 +387,7 @@ void _i2c_dump_info(struct mt_i2c_t *i2c)
 	       mt_get_gpio_in(GPIO_I2C3_SDA_PIN), mt_get_gpio_in(GPIO_I2C3_SCA_PIN));
 #endif
 	I2CLOG("I2C(%d) dump info------------------------------\n", i2c->id);
+	
 }
 
 static int dma_busy_wait_ready(struct mt_i2c_t *i2c)

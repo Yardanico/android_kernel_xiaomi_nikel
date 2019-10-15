@@ -417,6 +417,7 @@ void i2c_dump_info(struct mt_i2c *i2c)
 {
 	/* I2CFUC(); */
 	/* int val=0; */
+	/*
 	pr_err("i2c_dump_info ++++++++++++++++++++++++++++++++++++++++++\n");
 	pr_err("I2C structure:\n"
 	       I2CTAG "Clk=%d,Id=%d,Op=%x,Irq_stat=%x,Total_len=%x\n"
@@ -488,6 +489,7 @@ void i2c_dump_info(struct mt_i2c *i2c)
 	       (i2c_readl_dma(i2c, OFFSET_TX_MEM_ADDR2)),
 	       (i2c_readl_dma(i2c, OFFSET_RX_MEM_ADDR2)));
 	pr_err("i2c_dump_info ------------------------------------------\n");
+	*/
 
 }
 #else

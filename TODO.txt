@@ -1,6 +1,8 @@
 Find drivers:
 [Sensor dts] Device Tree: can not find alsps node!. Go to use old cust info
 [Sensor dts] Device Tree: can not find mag node!. Go to use old cust info
+[    0.834430]  (0)[1:swapper/0][FAN53555] [fan53555_driver_probe] exit: return err
+[    0.834460]  (0)[1:swapper/0]fan53555: probe of 7-0060 failed with error -12
 
 
 

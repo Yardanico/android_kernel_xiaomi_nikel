@@ -73,13 +73,13 @@
 
 #include "disp_session.h"
 
-#include "extd_platform.h"
+#include "mt6797/extd_platform.h"
 #include "extd_hdmi.h"
 #include "extd_factory.h"
 #include "extd_log.h"
 #include "extd_utils.h"
 #include "extd_hdmi_types.h"
-#include "external_display.h"
+#include "mt6797/external_display.h"
 
 #ifdef CONFIG_MTK_SMARTBOOK_SUPPORT
 #include <linux/sbsuspend.h>

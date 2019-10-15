@@ -1,13 +1,3 @@
-In file included from drivers/misc/mediatek/base/power/mt6797/mt_eem.c:1036:0:
-drivers/misc/mediatek/base/power/mt6797/../../../include/mt-plat/mt6797/include/mach/mt_thermal.h:27:24: fatal error: mt_gpufreq.h: No such file or directory
- #include "mt_gpufreq.h"
-
-In file included from drivers/mmc/host/mediatek/mt6797/mt_sd_misc.c:37:0:
-./drivers/misc/mediatek/include/mt-plat/sd_misc.h:26:19: fatal error: mt_sd.h: No such file or directory
- #include <mt_sd.h>
-
-
-FIX: https://steward-fu.github.io/website/phone/gemini/android/deploy/build_kernel-3.18.41.htm
-
-
-
+Find drivers:
+chargepump
+vib_drv

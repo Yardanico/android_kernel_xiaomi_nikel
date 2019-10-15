@@ -7,4 +7,4 @@ else
 obj-y   +=  accel.o accel_factory.o
 endif
 
-obj-$(CONFIG_MTK_LSM6DS0A)   +=  lsm6ds0/
+obj-$(CONFIG_MTK_LSM6DS3)   +=  lsm6ds3/

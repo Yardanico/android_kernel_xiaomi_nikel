@@ -1,4 +1,9 @@
 Find drivers:
+[Sensor dts] Device Tree: can not find alsps node!. Go to use old cust info
+[Sensor dts] Device Tree: can not find mag node!. Go to use old cust info
 
+
+
+low-priority?
 chargepump
 vib_drv
